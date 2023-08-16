@@ -7,3 +7,7 @@ GANs consist of two main neural network parts - generative model and the discrim
 During training if generated images are not well discriminated by the discriminator is penalized and its weights are changed whereas if discriminator is doing a good job at recognizing what is fake or real generator model is penalized and its weights are changed. Optimal situation is where discriminator outputs unsure i.e. 50% for real or fake.  
 
 A CycleGAN model will be used for this image-to-image translation problem where the photos will be tranformed into Monet images and vice-versa which ensures better training
+
+## Projects: 
+GAN -> 
+GAN2 -> 
