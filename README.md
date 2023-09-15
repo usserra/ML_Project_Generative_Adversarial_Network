@@ -61,7 +61,8 @@ The image sizes were (256, 256, 3) RGB images.
 ## Problems 
 Throughout the project there were mainly technical problems. The local computer had hardware memory issues as well as smalll CPU/RAM therefore after a couple of tries it was decided to use a public server to continue the project. Both kaggle and Google Collab was tested and Kaggle was finally decided on due to its high RAM capacity. The whole project had to get transferred to Kaggle and again problems with low memory came up. Then it was decided to do the data preprocessing on local computer whihc was slower but at least could be done. Later on ready data was transferred to Kaggle for training. During training TPU accelerator function in Kaggle was discovered and used due to its RAM being 330 GB. However due to the small batch size TPU was not allocated, however the project could still benefit from its memory while using the CPU to conduct training. There were still some problems with time limit for TPU usage (9 hours daily, 20 hours weekly).   
 ## CycleGAN Network 
-The cycleGAN Network used in this project was taken from the original cycleGAN paper by .. 
+The cycleGAN Network used in this project was taken from the original cycleGAN paper by Jun-Yan Zhu, et al. in their 2017 paper titled “Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.”and the webiste: https://machinelearningmastery.com/cyclegan-tutorial-with-keras/
+
 The CycleGAN Network is explained in this notion page:
 https://www.notion.so/gizadocs/ML_Project_Generative_Adversarial_Network-d62933971d3d44b692275906be57012b
 
